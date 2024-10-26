@@ -13,6 +13,12 @@
         android:theme="@style/Theme.ClubSportingSopo"
         tools:targetApi="31">
         <activity
+            android:name=".Toolbar"
+            android:exported="false" />
+        <activity
+            android:name=".toolbar"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

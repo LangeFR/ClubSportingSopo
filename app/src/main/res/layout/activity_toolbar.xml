@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <!-- Botón de menú -->
+    <ImageButton
+        android:id="@+id/menu_button"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/Menu_Icon"
+        android:contentDescription="Menu Button"
+        android:layout_gravity="start"
+        android:scaleType="centerInside"
+        android:background="@null" />
+
+    <!-- Logo al centro -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/iconos/logo_"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"/>
+
+    <!-- Botón de login a la derecha -->
+    <ImageButton
+        android:id="@+id/login_button"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/iconos/profile_icon"
+        android:contentDescription="Login Button"
+        android:layout_gravity="end"
+        android:scaleType="centerInside"
+        android:background="@null"/>
+
+</androidx.appcompat.widget.Toolbar>
